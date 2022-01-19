@@ -16,7 +16,8 @@ constantly informed, I suggest you upload it to Heroku. More on that in the last
 ## Setup
 Wether you run it locally or via Heroku, you need to fill in the required information in the `stalk.js` file.
 
-Paste the username of the desires friend you want to track in the 'desired.user.to.track' field.
+Paste the username of the desired friend you want to track in the 'desired.user.to.track' field.
+Make sure to use the same name which is displayed in the "Friends Activity" tab. The user ID  will not work.
 Fill in the email information. You need to figure out the smtp host and port of you email provider.
 It is possible to have the same sender and receiver address. 
 I tried it with my gmail address and it worked fine locally but the mails got blocked via Heroku.
