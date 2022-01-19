@@ -9,10 +9,12 @@
   ],
   "repository": "valeriangalliat/spotify-buddylist",
   "scripts": {
+    "start": "node stalk.js",
     "lint": "standard"
   },
   "dependencies": {
-    "node-fetch": "^2.6.1"
+    "node-fetch": "^2.6.1",
+    "nodemailer": "^6.7.2"
   },
   "devDependencies": {
     "standard": "^14.3.4"
