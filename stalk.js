@@ -8,7 +8,7 @@ async function main () {
   const friendActivity = await buddyList.getFriendActivity(accessToken)
  
   let arrayFound = friendActivity.friends.filter(function(item) {
-      return item.user.name == 'desired.user.to.track';
+      return item.user.name == 'zulaikhasael';
   });
   
   if (lastPlayedTrack !== arrayFound[0].track.name + arrayFound[0].track.artist.name){
